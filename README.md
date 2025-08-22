@@ -1,16 +1,9 @@
-Sure 👍 Here’s a clean **README.md** for your shuffle board project.
-
----
-
-```md
-# 🔀 Shuffle Board Challenge
+Shuffle Board Challenge
 
 This is a React + TypeScript + TailwindCSS implementation of a **drag-and-drop shuffle board**.  
 It replicates the behavior you described: two columns of cards with random heights, draggable between and within columns, animated insertion, and spotlight effects.
 
----
-
-## ✨ Features
+ Features
 - **Two columns** with 4 cards each (random height & color).
 - **Drag & Drop**:
   - Move cards between columns or reorder inside the same column.
@@ -23,15 +16,13 @@ It replicates the behavior you described: two columns of cards with random heigh
 
 ---
 
-## 🚀 Tech Stack
+Tech Stack
 - [React](https://react.dev/) (with TypeScript)
 - [TailwindCSS](https://tailwindcss.com/)
 - HTML5 **Drag & Drop API**  
 - CSS `mask-image` for spotlight effect
 
----
-
-## 📂 Project Structure
+ Project Structure
 ```
 
 src/
@@ -43,7 +34,7 @@ src/
 
 ---
 
-## 🛠️ Installation & Setup
+ Installation & Setup
 
 1. **Clone this repo**  
    ```bash
@@ -75,7 +66,7 @@ src/
 
 ---
 
-## 🎮 How to Play
+ How to Play
 
 1. Click and drag a card from one column.
 2. While dragging:
@@ -86,21 +77,15 @@ src/
 
 ---
 
-## 📸 Demo Preview
 
-*(Add a screenshot or GIF here once you run it)*
-
----
-
-## 📌 Notes
+ Notes
 
 * No Canvas or SVG is used for the effects.
 * The spotlight is achieved via **CSS mask-image** gradients.
 * You can easily customize the number of columns, initial cards, or animations.
 
 ---
-
-## 🏗️ Future Improvements
+Future Improvements
 
 * Mobile touch drag support.
 * Configurable column/card count.
